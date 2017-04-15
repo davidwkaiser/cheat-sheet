@@ -3,7 +3,7 @@ class Order < ActiveRecord::Base
     :foreign_key => “patron_id”
 end
 
-# :source is used (optionally) to define the associated model name when you're using has_many  through; :class_name is used (optionally) in a simple has many or belongs to relationship.
+:source is used (optionally) to define the associated model name when you're using has_many  through; :class_name is used (optionally) in a simple has many or belongs to relationship.
 
 # app/models/post.rb
 class Post < ActiveRecord::Base
