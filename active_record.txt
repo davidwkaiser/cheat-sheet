@@ -1,6 +1,6 @@
 class Order < ActiveRecord::Base
   belongs_to :customer, :class_name => "Patron",
-    :foreign_key => “patron_id”
+  :foreign_key => “patron_id”
 end
 
 :source is used (optionally) to define the associated model name when you're using has_many  through; :class_name is used (optionally) in a simple has many or belongs to relationship.
