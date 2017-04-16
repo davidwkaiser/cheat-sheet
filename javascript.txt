@@ -1,0 +1,24 @@
+#FOR
+for (var step = 0; step < 5; step++) {
+  console.log('Walking east one step');
+}
+
+#FOR...OF
+let arr = [3, 5, 7];
+arr.foo = 'hello';
+
+for (let i in arr) {
+   console.log(i); // logs "0", "1", "2", "foo"
+}
+
+for (let i of arr) {
+   console.log(i); // logs 3, 5, 7
+}
+
+
+#WHILE
+var x = 0;
+while (x < 3) {
+  console.log(x);
+  x++;
+}
