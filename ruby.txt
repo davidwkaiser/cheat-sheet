@@ -1,0 +1,60 @@
+#EACH
+names = ['Bob', 'Joe', 'Steve', 'Janice', 'Susan', 'Helen']
+x = 1
+names.each do |name|
+  puts "#{x}. #{name}"
+  x += 1
+end
+
+
+#WHILE
+x = gets.chomp.to_i
+while x >= 0
+  puts x
+  x = x - 1
+end
+
+
+#UNTIL
+x = gets.chomp.to_i
+until x < 0
+  puts x
+  x -= 1
+end
+
+
+#FOR
+x = gets.chomp.to_i
+for i in 1..x do
+  puts i
+end
+
+#FOR
+x = [1, 2, 3, 4, 5]
+for i in x do
+  puts i
+end
+
+
+#LOOP
+loop do
+  puts "This will keep printing until you hit Ctrl + c"
+end
+
+#TIMES
+0.times do |k|
+   puts "Number #{k}"
+end
+
+
+
+
+
+#RECURSION
+def fibonacci(number)
+  if number < 2
+    number
+  else
+    fibonacci(number - 1) + fibonacci(number - 2)
+  end
+end
