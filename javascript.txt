@@ -1,3 +1,13 @@
+#IF
+if (x>1){
+  console.log("greater");
+} else if (x<1){
+  console.log("less");
+} else {
+  console.log("equal");
+}
+
+
 #FOR
 for (var step = 0; step < 5; step++) {
   console.log('Walking east one step');
@@ -22,3 +32,31 @@ while (x < 3) {
   console.log(x);
   x++;
 }
+
+#FOREACH
+<button onclick="numbers.forEach(myFunction)">Try it</button>
+<p id="demo"></p>
+
+<script>
+demoP = document.getElementById("demo");
+var numbers = [4, 9, 16, 25];
+
+function myFunction(item, index) {
+    demoP.innerHTML = demoP.innerHTML + "index[" + index + "]: " + item + "<br>";
+}
+</script>
+
+
+
+
+
+
+var target;
+target = document.getElementById("output");
+target.textContent = "print me";
+target.className ="mystyle";
+
+
+
+document.write("hello!");
+
