@@ -1,0 +1,43 @@
+var today = new Date();
+var hour = today.getHours();
+
+
+#OBJECT LITERAL
+var hotel = {
+  name: "grand",
+  print: function(){
+    console.log("hi");
+    }
+}
+
+#OBJECT CONSTRUCTOR - 1
+var hotel = new Object();
+hotel.name = "grand";
+hotel.print = function(){
+    console.log("hi");
+    };
+
+
+#OBJECT CONSTRUCTOR - 2
+function Hotel(name, rooms){
+  this.name = name;
+  this.rooms = rooms;
+  this.print = function(){
+    console.log('hi');
+  };
+}
+
+var grand = new Hotel("grand", 30);
+
+
+#FUNCTION DECLARATION
+function getArea(width, height){
+  return width * height;
+}
+var size = area(3,4);
+
+#FUNCTION EXPRESSION
+var area = function (width, height){
+  return width * height;
+}
+var size = area(3,4);
