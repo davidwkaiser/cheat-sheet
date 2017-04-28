@@ -1,0 +1,11 @@
+var today = new Date();
+var d = new Date(99,5,24,11,33,30,0);
+  = Thu Jun 24 1999 11:33:30 GMT-0500 (CDT)
+var now = getDate() day of the month 1 - 31 ##All can be used with "set" too
+var now = getDay() day of the week 0-6
+var now = getFullYear() year
+var now = getHours() hour 0-23
+var now = getMinutes() minutes 0-59
+var now = getSeconds() seconds 0-59
+
+
