@@ -1,0 +1,23 @@
+var target;
+target = document.getElementById("output");
+target.textContent = "print me";
+target.className ="mystyle";
+
+target = document.querySelectorAll("p.new") returns array of all p nodes with class "new"
+
+
+
+
+
+text.toUpperCase() or .toLowerCase()
+text.substring(2,5) return characters found starting at first number (counting from 1 not 0), not including second
+text.split(' ') split by spaces
+text.replace('a', 'b')
+
+
+
+var randomNum = Math.floor((Math.random() * 10) +1) randomised 1 - 10
+
+
+
+document.write("hello!");
