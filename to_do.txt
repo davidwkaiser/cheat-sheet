@@ -1,0 +1,2 @@
+Add checklist to launch Rails App, including Git
+Add checklist to deploy to Heroku
