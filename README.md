@@ -20,3 +20,5 @@ Angular 2.
 I'm a leader, I'm responsible, and I'm low drama.  
 
 See my portfolio at http://davidwkaiser.squarespace.com  
+See my LinkedIn at http://linkedin.com/in/davidwkaiser  
+And, well, you've already found my GitHub...  
