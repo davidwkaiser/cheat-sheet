@@ -1,7 +1,7 @@
 # cheat-sheet
 a Repo to hold a variety of cheat sheets
 
-When learning human languages, I would group vocabulary by themes, i.e.
+When learning human languages, I would group vocabulary by themes, i.e.  
 "money," "food," "politics," "weather," etc.  
 
 Since programming languages are just another form of language,  
